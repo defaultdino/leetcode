@@ -9,8 +9,7 @@
 class Solution {
 private:
   bool isValid(char c) {
-    c = std::tolower(c);
-    return (c >= 'a' && c <= 'z');
+    return (c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z');
   }
 
 public:
