@@ -1,3 +1,5 @@
+// https://leetcode.com/explore/interview/card/amazon/76/array-and-strings/902/
+
 #include <string>
 #include <unordered_map>
 
