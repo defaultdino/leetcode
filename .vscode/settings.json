@@ -24,6 +24,7 @@
     "variant": "cpp",
     "cctype": "cpp",
     "algorithm": "cpp",
-    "stack": "cpp"
+    "stack": "cpp",
+    "unordered_map": "cpp"
   }
 }
