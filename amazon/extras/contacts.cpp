@@ -57,14 +57,3 @@ std::vector<int> contacts(std::vector<std::vector<std::string>> queries) {
 
   return matches;
 }
-
-int main() {
-
-  std::vector<std::vector<std::string>> queries = { { "add", "hack" }, { "add", "hackerrank" }, { "find", "hac" }, { "find", "hak" } };
-  std::vector<int> matches = contacts(queries);
-
-  for (const auto& match : matches)
-    std::cout << match << std::endl;
-
-  return 0;
-}
